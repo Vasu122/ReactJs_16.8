@@ -11,10 +11,13 @@ import {StateUse} from './stateUse';
 
 import ParentChild from './parentChild';
 import Parent from './parent/parent';
+import ContextApiParents from './contextApi/context-api-parent';
+
+
 function App() {
   return (
     <div className="App">
-
+      <ContextApiParents />
       <Parent />
 
       <header className="App-header">
